@@ -1,0 +1,49 @@
+@media screen and (max-width: 991px){
+	.home-content-outer {
+	    margin-left: 0;
+	    margin: auto;
+	}
+	.home-section {
+	    height: auto;
+	    padding: 50px 0 180px;
+	}
+	.consultancy-sec-left-s-img {
+	    bottom: 0;
+	    left: 40%;
+	}
+	.consultancy-sec-left {
+	    text-align: start;
+	    margin-bottom: 20px;
+	}
+
+}
+
+@media screen and (max-width: 767px){
+	.footer-item-wrap {
+	    display: inline-block;
+	}
+	.footer-item-left {
+	    margin-bottom: 10px;
+	}
+}
+
+@media screen and (max-width: 576px){
+	.home-content-outer {
+	    padding: 0 15px;
+	}
+	.home-content-title {
+	    font-size: 40px;
+	}
+	.home-sec-bottom {
+	    height: auto;
+	}
+	.consultancy-sec-tile {
+	    font-size: 25px;
+	}
+	.consultancy-sec-right-b-outer {
+	    display: inline-block;
+	}
+	.consultancy-sec-right-b-outer .call-phone {
+	    margin-left: 0;
+	}
+}

@@ -52,3 +52,328 @@ body {
 }
 /*common css End*/
 
+/*Header section css start*/
+.header-section {
+    background: #0554f2;
+}
+.header-sec-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+.brand-logo-outer {
+    display: inline-block;
+}
+.brand-logo-inner {
+    max-width: 180px;
+}
+.get-started-btn {
+    background: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Poppins';
+    border: 1px solid #fff;
+    color: #000;
+}
+.get-started-btn:hover {
+    background: transparent;
+    color: #fff;
+}
+/*Header section css End*/
+
+/*Home section css start*/
+.home-section {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("../images/home-image.png");
+    /* padding: 170px 0 270px; */
+    padding-top: 200px;
+    position: relative;
+    z-index: 1;
+    background-position: center;
+    height: 100vh;
+}
+.home-sec-bottom {
+    position: absolute;
+    height: 150px;
+    bottom: -10px;
+}
+
+.home-content-outer {
+    margin-left: 300px;
+    max-width: 600px;
+    /* padding: 100px 0; */
+}
+
+.home-content-subtitle {
+    font-size: 18px;
+    font-weight: 500;
+    color: #0554f2;
+    margin-bottom: 15px;
+}
+
+.home-content-title {
+    font-size: 50px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.home-content-text {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.get-btn {
+    background: #fff;
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #0554f2;
+    border: 1px solid #0554f2;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    z-index: 3;
+}
+
+.get-btn:after {
+    content: '';
+    width: 115px;
+    height: 100px;
+    background: #0554f2;
+    position: absolute;
+    transform: rotate(45deg);
+    left: -83px;
+    top: -80px;
+    /* opacity: 0; */
+    transition: 0.5s ease-in-out;
+    z-index: -1;
+}
+
+.get-btn:hover::after {
+    width: 190px;
+    height: 190px;
+    left: -22px;
+    top: -70px;
+}
+
+.get-btn:hover {
+    color: #fff;
+}
+/*Home section css End*/
+
+/*Service section css start*/
+.service-section {
+    padding: 50px 0;
+    background: #eff4fa;
+}
+.service-item-wrap {
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s ease;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.service-item-image {
+    max-width: 70px;
+    margin-bottom: 25px;
+    transition: 0.5s ease;
+}
+
+.service-item-title {
+    font-size: 25px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.service-item-text {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #9297a0;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+/*Service section css End*/
+
+/*Consultancy section css start*/
+.consultancy-section {
+    padding: 60px 0;
+}
+
+.consultancy-sec-left {
+    position: relative;
+    text-align: end;
+}
+
+.consultancy-sec-left-f-img {
+    max-width: 300px;
+}
+
+.consultancy-sec-left-s-img {
+    position: absolute;
+    max-width: 300px;
+    left: 65px;
+    bottom: -25px;
+}
+
+.consultancy-sec-subtile {
+    font-size: 22px;
+    font-weight: 600;
+    color: #0554f2;
+    margin-bottom: 10px;
+}
+
+.consultancy-sec-tile {
+    font-size: 30px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #000;
+}
+
+.consultancy-sec-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #9297a0;
+    line-height: 1.7;
+}
+
+.consultancy-list {
+    margin-bottom: 30px;
+}
+
+.consultancy-list-item {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins';
+}
+
+.consultancy-list-item i {
+    color: #0554f2;
+    margin-right: 5px;
+}
+
+.consultancy-sec-right-b-outer {
+    display: flex;
+    align-items: center;
+}
+
+.consultancy-sec-right-b-outer .call-phone {
+    margin-left: 25px;
+}
+
+.consultancy-sec-right-b-outer .call-phone .phone-icon {
+    width: 60px;
+    height: 60px;
+    border: 2px solid #0554f2;
+    border-radius: 50%;
+    font-size: 28px;
+    color: #0554f2;
+    margin-right: 10px;
+}
+
+.consultancy-sec-right-b-outer .call-phone .text span {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+}
+
+.consultancy-sec-right-b-outer .call-phone .text .paragraph-2 {
+    font-size: 16px;
+    color: #9297a0;
+    font-weight: 600;
+}
+/*Consultancy section css End*/
+
+/*Pricing section css start*/
+.pricing-section {
+    padding: 50px 0;
+}
+
+.pricing-item-wrap {
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.pricing-item-title {
+    font-size: 30px;
+    font-weight: 600;
+    color: #0554f2;
+    color: #000;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.pricing-item-price {
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: 600;
+    color: #0554f2;
+}
+
+.pricing-feature-list {
+    margin-bottom: 20px;
+}
+
+.pricing-feature-list-item {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+}
+
+.pricing-feature-list-item i {
+    color: #0554f2;
+    margin-right: 5px;
+}
+/*Pricing section css End*/
+
+/*Footer section css start*/
+.footer-section {
+    background: #000;
+    padding: 20px 0;
+}
+
+.footer-item-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-item-left-text {
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.footer-item-left-text a:hover {
+    color: #ffff;
+}
+
+.footer-item-right-link {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.footer-item-right-link:hover {
+    color: #0554f2;
+}
+/*Footer section css End*/
